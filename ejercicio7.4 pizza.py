@@ -1,3 +1,4 @@
+"""
 pizza = "\nIngresa un ingrediente para la pizza: "
 pizza_no = "\nEscribe 'quit' para quitar el programa."
 
@@ -12,3 +13,25 @@ while active:
         
     else:
         print(f"Ok, añadiremos el ingrediente {mensaje} a la pizza.")
+ """ 
+
+pizza = "\nIngresa un ingrediente para la pizza: "
+pizza_no = "\nEscribe 'quit' para quitar el programa."
+
+#print(f"{pizza}")
+print(f"{pizza_no}")
+
+mensaje = ""
+ingredientes = []
+while mensaje != 'quit':
+    mensaje = input(pizza)
+    print(f"Ok, añadiremos el ingrediente {mensaje} a la pizza.")
+    ingredientes.append(mensaje)
+
+    if mensaje == 'quit':
+        print('Adios')
+        ingredientes.pop()
+
+        break
+
+print(ingredientes)
