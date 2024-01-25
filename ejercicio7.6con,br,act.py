@@ -33,7 +33,7 @@ while mensaje != 'quit':
     else:
         print(f"\nOk, añadiremos el ingrediente {mensaje} a la pizza.")
 """
-******************condicional**********************
+#****************condicional**********************
 pizza = "\nIngresa un ingrediente para la pizza: "
 pizza_no = "\nEscribe 'quit' para quitar el programa."
 
