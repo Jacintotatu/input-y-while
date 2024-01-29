@@ -52,3 +52,14 @@ while True:
 
     else:
         print(f"Ok, si tienes {comprar} años ¡¡entras gratis!!.")
+
+"""
+while True:
+    edad = int(input('Cuantos años tienes: '))
+    if edad < 3:
+        print('¡Entras gratiiiis!')
+    elif edad < 12:
+        print('Tu entrada cuesta 8 €.')
+    else:
+        print('Tu entrada cuesta 12 €.')
+"""
